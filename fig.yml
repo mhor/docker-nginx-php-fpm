@@ -1,0 +1,9 @@
+front:
+  build: images/nginx
+  ports:
+    - "80:80"
+    - "9000:9000"
+  volumes:
+    - .:/var/www
+    - sites:/etc/nginx/sites-enabled
+
