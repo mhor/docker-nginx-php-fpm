@@ -1,5 +1,5 @@
 front:
-  build: images/nginx
+  build: Dockerfiles/nginx-php-fpm
   ports:
     - "80:80"
     - "9000:9000"
